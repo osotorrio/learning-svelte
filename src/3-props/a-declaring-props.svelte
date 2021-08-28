@@ -1,8 +1,11 @@
 <script>
   import NestedComponent from "./nested-component.svelte";
 
-  const messageToChild = "How are you?";
+  const data = {
+    header: "This is a header",
+    text: "This is a paragraph",
+  };
 </script>
 
-<NestedComponent message={messageToChild} />
+<NestedComponent props={data} />
 <hr />

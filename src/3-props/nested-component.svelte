@@ -1,5 +1,6 @@
 <script>
-  export let message;
+  export let props = {};
 </script>
 
-<h2>The message passed down was: {message}</h2>
+<h2>{props.header}</h2>
+<p>{props.text}</p>
