@@ -1,6 +1,7 @@
 <script>
   import Basics from "./1-introduction/a-basics.svelte";
   import AddingData from "./1-introduction/b-adding-data.svelte";
+  import DynamicAttributes from "./1-introduction/c-dynamic-attributes.svelte";
   export let name;
 </script>
 
@@ -12,6 +13,7 @@
   </p>
   <Basics />
   <AddingData />
+  <DynamicAttributes />
 </main>
 
 <style>
