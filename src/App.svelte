@@ -18,6 +18,7 @@
   import ElseBlocks from "./4-Logic/b-else-blocks.svelte";
   import ElseIfBlocks from "./4-Logic/c-else-if-blocks.svelte";
   import EachBlock from "./4-Logic/d-each-blocks.svelte";
+  import KeyedEachBlock from "./4-Logic/e-keyed-each-blocks.svelte";
 </script>
 
 <main>
@@ -44,6 +45,7 @@
   <ElseBlocks />
   <ElseIfBlocks />
   <EachBlock />
+  <KeyedEachBlock />
 </main>
 
 <style>
