@@ -1,5 +1,8 @@
 <script>
-  export let props = {};
+  export let props = {
+    header: "Header default value",
+    text: "Text default value",
+  };
 </script>
 
 <h2>{props.header}</h2>

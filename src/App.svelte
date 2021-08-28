@@ -12,6 +12,7 @@
   import UpdateArray from "./2-reactivity/d-updating-arrays.svelte";
   import UpdateObject from "./2-reactivity/d-updating-objects.svelte";
   import DeclaringProps from "./3-props/a-declaring-props.svelte";
+  import DefaultProps from "./3-props/b-default-props.svelte";
 </script>
 
 <main>
@@ -32,6 +33,7 @@
   <UpdateArray />
   <UpdateObject />
   <DeclaringProps />
+  <DefaultProps />
 </main>
 
 <style>
