@@ -17,6 +17,7 @@
   import IfBlocks from "./4-Logic/a-if-blocks.svelte";
   import ElseBlocks from "./4-Logic/b-else-blocks.svelte";
   import ElseIfBlocks from "./4-Logic/c-else-if-blocks.svelte";
+  import EachBlock from "./4-Logic/d-each-blocks.svelte";
 </script>
 
 <main>
@@ -42,6 +43,7 @@
   <IfBlocks />
   <ElseBlocks />
   <ElseIfBlocks />
+  <EachBlock />
 </main>
 
 <style>
