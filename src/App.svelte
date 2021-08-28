@@ -11,6 +11,7 @@
   import Statements from "./2-reactivity/c-statements.svelte";
   import UpdateArray from "./2-reactivity/d-updating-arrays.svelte";
   import UpdateObject from "./2-reactivity/d-updating-objects.svelte";
+  import DeclaringProps from "./3-props/a-declaring-props.svelte";
 </script>
 
 <main>
@@ -30,6 +31,7 @@
   <Statements />
   <UpdateArray />
   <UpdateObject />
+  <DeclaringProps />
 </main>
 
 <style>
