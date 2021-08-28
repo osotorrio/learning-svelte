@@ -20,6 +20,7 @@
   import EachBlock from "./4-Logic/d-each-blocks.svelte";
   import KeyedEachBlock from "./4-Logic/e-keyed-each-blocks.svelte";
   import AwaitBlocks from "./4-Logic/f-await-blocks.svelte";
+  import DomEvents from "./5-Events/a-dom-events.svelte";
 </script>
 
 <main>
@@ -48,6 +49,7 @@
   <EachBlock />
   <KeyedEachBlock />
   <AwaitBlocks />
+  <DomEvents />
 </main>
 
 <style>
