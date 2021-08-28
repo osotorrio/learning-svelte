@@ -2,5 +2,7 @@
   import NestedComponent from "./nested-component.svelte";
 </script>
 
-<NestedComponent />
-<hr />
+<div id="default-props">
+  <NestedComponent />
+  <hr />
+</div>

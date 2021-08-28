@@ -1,5 +1,7 @@
-<h2>This component has CSS styles</h2>
-<hr />
+<div id="styling">
+  <h2>This component has CSS styles</h2>
+  <hr />
+</div>
 
 <style>
   h2 {

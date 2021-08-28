@@ -10,5 +10,7 @@
   }
 </script>
 
-<button on:click={incrementCount}>Clicked {count}</button>
-<hr />
+<div id="statements">
+  <button on:click={incrementCount}>Clicked {count}</button>
+  <hr />
+</div>

@@ -7,5 +7,7 @@
   };
 </script>
 
-<NestedComponent {...data} />
-<hr />
+<div id="spread-props">
+  <NestedComponent {...data} />
+  <hr />
+</div>

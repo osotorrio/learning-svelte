@@ -5,5 +5,7 @@
   const text = "This is paragraph";
 </script>
 
-<NestedComponent {header} {text} />
-<hr />
+<div id="declaring-props">
+  <NestedComponent {header} {text} />
+  <hr />
+</div>

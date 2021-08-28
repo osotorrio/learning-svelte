@@ -6,14 +6,16 @@
   }
 </script>
 
-<button on:click={toggleState}>Toggle</button>
+<div id="else-blocks">
+  <button on:click={toggleState}>Toggle</button>
 
-{#if toggle}
-  <h2>Display if true</h2>
-{:else}
-  <p>Display if false</p>
-{/if}
-<hr />
+  {#if toggle}
+    <h2>Display if true</h2>
+  {:else}
+    <p>Display if false</p>
+  {/if}
+  <hr />
+</div>
 
 <style>
   h2 {

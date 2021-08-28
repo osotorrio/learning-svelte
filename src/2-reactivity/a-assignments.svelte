@@ -6,8 +6,10 @@
   }
 </script>
 
-<button on:click={incrementCount}>
-  You clicked this {count}
-  {count === 1 ? "time" : "times  "}
-</button>
-<hr />
+<div id="assignments">
+  <button on:click={incrementCount}>
+    You clicked this {count}
+    {count === 1 ? "time" : "times  "}
+  </button>
+  <hr />
+</div>

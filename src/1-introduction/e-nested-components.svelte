@@ -2,8 +2,10 @@
   import Styling from "./d-styling.svelte";
 </script>
 
-<h2>This component imports the component below</h2>
-<Styling />
+<div id="nested-componets">
+  <h2>This component imports the component below</h2>
+  <Styling />
+</div>
 
 <style>
   h2 {

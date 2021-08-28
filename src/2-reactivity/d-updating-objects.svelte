@@ -8,6 +8,8 @@
   }
 </script>
 
-<button on:click={changeUserName}>Change name to Oscar</button>
-<p>{user.name}</p>
-<hr />
+<div id="updating-objects">
+  <button on:click={changeUserName}>Change name to Oscar</button>
+  <p>{user.name}</p>
+  <hr />
+</div>

@@ -7,7 +7,9 @@
   }
 </script>
 
-<button on:click={incrementCount}>
-  You clicked {count} times which its double is equal to {doubled}
-</button>
-<hr />
+<div id="declarations">
+  <button on:click={incrementCount}>
+    You clicked {count} times which its double is equal to {doubled}
+  </button>
+  <hr />
+</div>

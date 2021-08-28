@@ -3,6 +3,8 @@
   const alt = "Svelte icon";
 </script>
 
-<img {src} {alt} />
-<p>Image loaded with dynamic attributes</p>
-<hr />
+<div id="dynamic-attricutes">
+  <img {src} {alt} />
+  <p>Image loaded with dynamic attributes</p>
+  <hr />
+</div>
