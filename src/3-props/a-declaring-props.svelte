@@ -1,11 +1,9 @@
 <script>
   import NestedComponent from "./nested-component.svelte";
 
-  const data = {
-    header: "This is a header",
-    text: "This is a paragraph",
-  };
+  const header = "This is a header";
+  const text = "This is paragraph";
 </script>
 
-<NestedComponent props={data} />
+<NestedComponent {header} {text} />
 <hr />

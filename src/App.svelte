@@ -13,6 +13,7 @@
   import UpdateObject from "./2-reactivity/d-updating-objects.svelte";
   import DeclaringProps from "./3-props/a-declaring-props.svelte";
   import DefaultProps from "./3-props/b-default-props.svelte";
+  import SpreadProps from "./3-props/c-spread-props.svelte";
 </script>
 
 <main>
@@ -34,6 +35,7 @@
   <UpdateObject />
   <DeclaringProps />
   <DefaultProps />
+  <SpreadProps />
 </main>
 
 <style>

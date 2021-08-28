@@ -1,9 +1,7 @@
 <script>
-  export let props = {
-    header: "Header default value",
-    text: "Text default value",
-  };
+  export let header = "Header default value";
+  export let text = "Header default value";
 </script>
 
-<h2>{props.header}</h2>
-<p>{props.text}</p>
+<h2>{header}</h2>
+<p>{text}</p>
