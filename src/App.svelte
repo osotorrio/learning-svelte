@@ -10,6 +10,7 @@
   import Declarations from "./2-reactivity/b-declarations.svelte";
   import Statements from "./2-reactivity/c-statements.svelte";
   import UpdateArray from "./2-reactivity/d-updating-arrays.svelte";
+  import UpdateObject from "./2-reactivity/d-updating-objects.svelte";
 </script>
 
 <main>
@@ -28,6 +29,7 @@
   <Declarations />
   <Statements />
   <UpdateArray />
+  <UpdateObject />
 </main>
 
 <style>
