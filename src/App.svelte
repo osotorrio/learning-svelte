@@ -16,6 +16,7 @@
   import SpreadProps from "./3-props/c-spread-props.svelte";
   import IfBlocks from "./4-Logic/a-if-blocks.svelte";
   import ElseBlocks from "./4-Logic/b-else-blocks.svelte";
+  import ElseIfBlocks from "./4-Logic/c-else-if-blocks.svelte";
 </script>
 
 <main>
@@ -40,6 +41,7 @@
   <SpreadProps />
   <IfBlocks />
   <ElseBlocks />
+  <ElseIfBlocks />
 </main>
 
 <style>
