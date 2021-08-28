@@ -19,6 +19,7 @@
   import ElseIfBlocks from "./4-Logic/c-else-if-blocks.svelte";
   import EachBlock from "./4-Logic/d-each-blocks.svelte";
   import KeyedEachBlock from "./4-Logic/e-keyed-each-blocks.svelte";
+  import AwaitBlocks from "./4-Logic/f-await-blocks.svelte";
 </script>
 
 <main>
@@ -46,6 +47,7 @@
   <ElseIfBlocks />
   <EachBlock />
   <KeyedEachBlock />
+  <AwaitBlocks />
 </main>
 
 <style>
