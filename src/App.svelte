@@ -7,6 +7,7 @@
   import Nested from "./1-introduction/e-nested-components.svelte";
   import HtmlTag from "./1-introduction/f-html-tags.svelte";
   import Assignments from "./2-reactivity/a-assignments.svelte";
+  import Declarations from "./2-reactivity/b-declarations.svelte";
 </script>
 
 <main>
@@ -22,6 +23,7 @@
   <Nested />
   <HtmlTag />
   <Assignments />
+  <Declarations />
 </main>
 
 <style>
