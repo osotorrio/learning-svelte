@@ -4,6 +4,7 @@
   import DynamicAttributes from "./1-introduction/c-dynamic-attributes.svelte";
   import Styling from "./1-introduction/d-styling.svelte";
   import Nested from "./1-introduction/e-nested-components.svelte";
+  import HtmlTag from "./1-introduction/f-html-tags.svelte";
   export let name;
 </script>
 
@@ -18,6 +19,7 @@
   <DynamicAttributes />
   <Styling />
   <Nested />
+  <HtmlTag />
 </main>
 
 <style>
