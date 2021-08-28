@@ -9,6 +9,7 @@
   import Assignments from "./2-reactivity/a-assignments.svelte";
   import Declarations from "./2-reactivity/b-declarations.svelte";
   import Statements from "./2-reactivity/c-statements.svelte";
+  import UpdateArray from "./2-reactivity/d-updating-arrays.svelte";
 </script>
 
 <main>
@@ -26,6 +27,7 @@
   <Assignments />
   <Declarations />
   <Statements />
+  <UpdateArray />
 </main>
 
 <style>
