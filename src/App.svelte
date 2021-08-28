@@ -1,11 +1,12 @@
 <script>
+  export let name;
   import Basics from "./1-introduction/a-basics.svelte";
   import AddingData from "./1-introduction/b-adding-data.svelte";
   import DynamicAttributes from "./1-introduction/c-dynamic-attributes.svelte";
   import Styling from "./1-introduction/d-styling.svelte";
   import Nested from "./1-introduction/e-nested-components.svelte";
   import HtmlTag from "./1-introduction/f-html-tags.svelte";
-  export let name;
+  import Assignments from "./2-reactivity/a-assignments.svelte";
 </script>
 
 <main>
@@ -20,6 +21,7 @@
   <Styling />
   <Nested />
   <HtmlTag />
+  <Assignments />
 </main>
 
 <style>
