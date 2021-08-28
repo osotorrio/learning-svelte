@@ -1,5 +1,6 @@
 <script>
   import Basics from "./1-introduction/a-basics.svelte";
+  import AddingData from "./1-introduction/b-adding-data.svelte";
   export let name;
 </script>
 
@@ -10,6 +11,7 @@
     how to build Svelte apps.
   </p>
   <Basics />
+  <AddingData />
 </main>
 
 <style>
