@@ -8,6 +8,7 @@
   import HtmlTag from "./1-introduction/f-html-tags.svelte";
   import Assignments from "./2-reactivity/a-assignments.svelte";
   import Declarations from "./2-reactivity/b-declarations.svelte";
+  import Statements from "./2-reactivity/c-statements.svelte";
 </script>
 
 <main>
@@ -24,6 +25,7 @@
   <HtmlTag />
   <Assignments />
   <Declarations />
+  <Statements />
 </main>
 
 <style>
