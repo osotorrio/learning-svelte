@@ -14,6 +14,7 @@
   import DeclaringProps from "./3-props/a-declaring-props.svelte";
   import DefaultProps from "./3-props/b-default-props.svelte";
   import SpreadProps from "./3-props/c-spread-props.svelte";
+  import IfBlocks from "./4-Logic/a-if-blocks.svelte";
 </script>
 
 <main>
@@ -36,6 +37,7 @@
   <DeclaringProps />
   <DefaultProps />
   <SpreadProps />
+  <IfBlocks />
 </main>
 
 <style>
