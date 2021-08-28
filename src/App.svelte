@@ -3,6 +3,7 @@
   import AddingData from "./1-introduction/b-adding-data.svelte";
   import DynamicAttributes from "./1-introduction/c-dynamic-attributes.svelte";
   import Styling from "./1-introduction/d-styling.svelte";
+  import Nested from "./1-introduction/e-nested-components.svelte";
   export let name;
 </script>
 
@@ -16,6 +17,7 @@
   <AddingData />
   <DynamicAttributes />
   <Styling />
+  <Nested />
 </main>
 
 <style>
