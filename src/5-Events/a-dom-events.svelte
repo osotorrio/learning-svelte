@@ -6,9 +6,12 @@
   }
 </script>
 
-<h2 on:focus={moveButton} on:mouseover={moveButton}>
-  Pass mouse over to move this
-</h2>
+<div id="dom-events">
+  <h2 on:focus={moveButton} on:mouseover={moveButton}>
+    Pass mouse over to move this
+  </h2>
+  <hr />
+</div>
 
 <style>
   h2 {
